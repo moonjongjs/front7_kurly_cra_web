@@ -1,0 +1,38 @@
+#wrap #quickMenu {
+  position: absolute;
+  z-index: 4;
+  right: 20px;
+  top: 707px;
+  width: 80px;
+}
+#wrap #quickMenu.on {
+  position: fixed;
+  top: 50%;
+  margin-top: -100px;
+}
+#wrap #quickMenu ul {
+  width: 100%;
+}
+#wrap #quickMenu ul li {
+  width: 100%;
+}
+#wrap #quickMenu ul li a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 8px 0;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  font-size: 12px;
+}
+#wrap #quickMenu ul li a img {
+  width: 100%;
+}
+#wrap #quickMenu ul li:last-child a {
+  border-bottom: 1px solid #ccc;
+}
+#wrap #quickMenu ul li:nth-child(1) a {
+  padding: 0;
+  border: 0;
+  margin: 0 0 10px 0;
+}

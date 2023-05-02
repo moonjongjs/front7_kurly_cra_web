@@ -1,0 +1,142 @@
+#wrap #footer {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  border-top: 1px solid #eee;
+}
+#wrap #footer .row1 {
+  background: #fff;
+  padding: 30px 0 40px 0;
+}
+#wrap #footer .row1 .container {
+  width: 1068px;
+  padding: 0 9px;
+  margin: 0 auto;
+}
+#wrap #footer .row1 .container .row1-1 {
+  display: flex;
+  padding: 0 0 40px 0;
+}
+#wrap #footer .row1 .container .row1-1 .left {
+  width: 50%;
+}
+#wrap #footer .row1 .container .row1-1 .left h1 {
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+}
+#wrap #footer .row1 .container .row1-1 .left h2 {
+  padding: 25px 0;
+}
+#wrap #footer .row1 .container .row1-1 .left h2 a {
+  font-size: 28px;
+  color: #333;
+  font-weight: 700;
+}
+#wrap #footer .row1 .container .row1-1 .left h2 em {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+#wrap #footer .row1 .container .row1-1 .left ul li {
+  font-size: 14px;
+  color: #999;
+  display: flex;
+  padding: 10px 0;
+}
+#wrap #footer .row1 .container .row1-1 .left ul li a {
+  display: flex;
+  width: 140px;
+  height: 40px;
+  border: 1px solid #ccc;
+  color: #333;
+  justify-content: center;
+  align-items: center;
+}
+#wrap #footer .row1 .container .row1-1 .left ul li span {
+  margin-left: 15px;
+  line-height: 130%;
+}
+#wrap #footer .row1 .container .row1-1 .left div {
+  font-size: 12px;
+  color: #999;
+  line-height: 140%;
+  padding-top: 10px;
+}
+#wrap #footer .row1 .container .row1-1 .left div a {
+  color: #999;
+}
+#wrap #footer .row1 .container .row1-1 .right {
+  width: 50%;
+}
+#wrap #footer .row1 .container .row1-1 .right p a {
+  font-size: 14px;
+  color: #333;
+  margin-right: 15px;
+}
+#wrap #footer .row1 .container .row1-1 .right div {
+  padding: 40px 0 50px 0;
+}
+#wrap #footer .row1 .container .row1-1 .right div address {
+  font-size: 12px;
+  line-height: 140%;
+}
+#wrap #footer .row1 .container .row1-1 .right div address i {
+  color: #ddd;
+  margin: 0 5px;
+}
+#wrap #footer .row1 .container .row1-1 .right div address a {
+  color: #5f0080;
+}
+#wrap #footer .row1 .container .row1-1 .right span a {
+  margin-right: 10px;
+}
+#wrap #footer .row1 .container .row1-1 .right span a img {
+  width: 30px;
+}
+#wrap #footer .row1 .container .row1-2 {
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 0 0;
+}
+#wrap #footer .row1 .container .row1-2 a {
+  display: block;
+  display: flex;
+}
+#wrap #footer .row1 .container .row1-2 a img {
+  width: auto;
+  height: 34px;
+}
+#wrap #footer .row1 .container .row1-2 a span {
+  font-size: 10px;
+  color: #999;
+  line-height: 140%;
+  padding: 0 0 0 10px;
+}
+#wrap #footer .row1 .container .row1-2 a:nth-child(3) img {
+  height: 32px;
+}
+#wrap #footer .row2 {
+  background: #f7f7f7;
+  padding: 30px 0 40px 0;
+}
+#wrap #footer .row2 .container {
+  width: 1068px;
+  padding: 0 9px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 140%;
+  font-size: 10px;
+  color: #999;
+}
+#wrap #footer .row2 .container strong {
+  font-weight: normal;
+  display: block;
+  padding: 0 0 10px 0;
+}
+#wrap #footer .row2 .container em {
+  font-weight: normal;
+  display: block;
+}

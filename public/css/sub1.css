@@ -1,0 +1,377 @@
+@charset "UTF-8";
+#wrap {
+  width: 100%;
+}
+#wrap #sub {
+  width: 100%;
+}
+#wrap #sub #section1 {
+  width: 100%;
+  padding: 0 0 50px 0;
+}
+#wrap #sub #section1 .container {
+  width: 100%;
+  max-width: 1068px;
+  margin: 0 auto;
+}
+#wrap #sub #section1 .container .gap {
+  width: 100%;
+  padding: 0 9px;
+}
+#wrap #sub #section1 .container .gap .title {
+  width: 100%;
+}
+#wrap #sub #section1 .container .gap .title h2 {
+  font-size: 20px;
+  text-align: center;
+}
+#wrap #sub #section1 .container .gap .content {
+  width: 100%;
+}
+#wrap #sub #section1 .container .gap .content a {
+  display: block;
+  width: 100%;
+}
+#wrap #sub #section1 .container .gap .content a img {
+  width: 100%;
+}
+#wrap #sub #section2 {
+  width: 100%;
+  padding: 0 0 70px 0;
+}
+#wrap #sub #section2 .container {
+  width: 100%;
+  max-width: 1068px;
+  margin: 0 auto;
+}
+#wrap #sub #section2 .container .gap {
+  width: 100%;
+  padding: 0;
+}
+#wrap #sub #section2 .container .gap .title {
+  width: 100%;
+  padding: 0 0 50px 0;
+}
+#wrap #sub #section2 .container .gap .title h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #333;
+}
+#wrap #sub #section2 .container .gap .content {
+  width: 100%;
+  display: flex;
+}
+#wrap #sub #section2 .container .gap .content .left {
+  width: 25%;
+  position: sticky; /* 스크롤 탑값이 70픽셀에 도달하면 고정 fixed */
+  top: 85px;
+  left: 0;
+  height: 100vh; /* 스티키는 반드시 높이를 잡는다 */
+}
+#wrap #sub #section2 .container .gap .content .left .left-header {
+  width: 100%;
+  padding: 0 28px 27px 9px;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #sub #section2 .container .gap .content .left .left-header span {
+  font-size: 14px;
+  color: #999;
+}
+#wrap #sub #section2 .container .gap .content .left .left-header span:first-child {
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content {
+  width: 100%;
+  height: 100%;
+  padding: 0 28px 100px 9px;
+  overflow-y: auto; /* 영역을 오버하는 부분 스크롤바 보인다. */
+}
+#wrap #sub #section2 .container .gap .content .left .left-content::-webkit-scrollbar { /* 스크롤바 너비 설정 */
+  width: 0;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content::-webkit-scrollbar-track { /* 스크롤바 트랙 */
+  background: #f7f7f7;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content::-webkit-scrollbar-thumb { /* 스크롤바 트랙 바 */
+  background: #ddd;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul {
+  width: 100%;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li {
+  width: 100%;
+  border-top: 1px solid #ddd;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li:last-child {
+  border-bottom: 1px solid #ddd;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 52px;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li a span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li a svg {
+  width: 18px;
+  height: 18px;
+  transform: rotate(0deg);
+  transition: all 0.3s;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li a svg.on {
+  transform: rotate(180deg);
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li .sub ul li {
+  border: 0;
+  padding: 7px 0;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li .sub ul li label {
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li .sub ul li label input[type=checkbox] {
+  width: 18px;
+  height: 18px;
+  margin: 0 10px 0 0;
+  background: url(../img/check_off.svg) no-repeat 50% 50%;
+  background-size: 18px 18px;
+  border: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li .sub ul li label input[type=checkbox]:checked {
+  background-image: url(../img/check_on.svg);
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li .sub span {
+  display: block;
+  padding: 20px 0;
+  width: 100%;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li .sub span button {
+  width: 100%;
+  color: #999;
+  font-size: 12px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+#wrap #sub #section2 .container .gap .content .left .left-content ul li .sub span button svg {
+  transform: rotate(90deg);
+  margin-top: -3px;
+}
+#wrap #sub #section2 .container .gap .content .right {
+  width: 75%;
+  padding: 0 9px;
+}
+#wrap #sub #section2 .container .gap .content .right .right-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 9px 20px 9px;
+}
+#wrap #sub #section2 .container .gap .content .right .right-header span {
+  font-size: 14px;
+}
+#wrap #sub #section2 .container .gap .content .right .right-header span:nth-child(1) {
+  color: #333;
+}
+#wrap #sub #section2 .container .gap .content .right .right-header span a {
+  color: #999;
+  margin: 0 0 0 15px;
+}
+#wrap #sub #section2 .container .gap .content .right .right-header span a:hover {
+  color: #333;
+}
+#wrap #sub #section2 .container .gap .content .right .right-header span a.on {
+  color: #333;
+  font-weight: 500;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content {
+  width: 100%;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li {
+  width: 33.333%;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap {
+  margin: 0 9px 50px 9px;
+  cursor: pointer;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .img-box {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .img-box > img {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  transition: all 0.6s;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .img-box > img:hover {
+  transform: scale(1.1);
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .img-box > span {
+  width: 45px;
+  height: 45px;
+  z-index: 2;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .img-box > span img {
+  width: 100%;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .txt-box {
+  padding: 20px 0 0 0;
+  line-height: 140%;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .txt-box h2 {
+  font-size: 16px;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .txt-box h3 {
+  font-size: 16px;
+  padding: 10px 0;
+  font-weight: 600;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .txt-box h3 em {
+  color: #333;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .txt-box h3 strong {
+  color: #fa622f;
+  margin: 0 10px 0 0;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .txt-box h4 {
+  font-size: 14px;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .txt-box h4 s {
+  color: #bbb;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .txt-box h5 {
+  font-size: 12px;
+  padding: 10px 0;
+  color: #bbb;
+}
+#wrap #sub #section2 .container .gap .content .right .right-content ul li .col-gap .txt-box h5 span {
+  color: #bbb;
+}
+#wrap .sub1-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+#wrap .sub1-modal.on {
+  display: flex;
+}
+#wrap .sub1-modal .container {
+  width: 780px;
+  height: 540px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+}
+#wrap .sub1-modal .container .content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#wrap .sub1-modal .container .content .title {
+  display: flex;
+  padding: 0 0 30px 0;
+  align-items: center;
+}
+#wrap .sub1-modal .container .content .title h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 15px 0 0;
+}
+#wrap .sub1-modal .container .content .title a {
+  font-size: 14px;
+  color: #333;
+  margin: 0 10px;
+}
+#wrap .sub1-modal .container .content .title a.on {
+  color: rgb(95, 0, 128);
+}
+#wrap .sub1-modal .container .content ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+#wrap .sub1-modal .container .content ul li {
+  width: 33.333%;
+  padding: 7px 0;
+}
+#wrap .sub1-modal .container .content ul li label {
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#wrap .sub1-modal .container .content ul li label input[type=checkbox] {
+  width: 18px;
+  height: 18px;
+  margin: 0 10px 0 0;
+  background: url(../img/check_off.svg) no-repeat 50% 50%;
+  background-size: 18px 18px;
+  border: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+#wrap .sub1-modal .container .content ul li label input[type=checkbox]:checked {
+  background-image: url(../img/check_on.svg);
+}
+#wrap .sub1-modal .container .content .button-box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+#wrap .sub1-modal .container .content .button-box button {
+  width: 140px;
+  height: 44px;
+  background: #fff;
+  border: 3px;
+  color: #333;
+  border: 1px solid #333;
+  cursor: pointer;
+  margin: 0 2px;
+}
+#wrap .sub1-modal .container .content .button-box button:last-child {
+  background: rgb(95, 0, 128);
+  border: 1px solid rgb(95, 0, 128);
+  color: #fff;
+}
+#wrap .sub1-modal .container .content .modal-close-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  cursor: pointer;
+  border: 0;
+}

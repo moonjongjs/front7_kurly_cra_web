@@ -1,0 +1,26 @@
+#wrap {
+    #quickMenu {
+       position: absolute;z-index: 4;right:20px;top:707px;width:80px;
+       &.on { // & 모요소  #quickMenu
+            position: fixed;top:50%;margin-top:-100px;
+       }
+       ul {
+            width:100%;  
+            li {
+                width:100%;
+                a {
+                    width:100%;display: block;text-align: center;padding:8px 0;border:1px solid #ccc;border-bottom:0;font-size: 12px;
+                    img {
+                        width:100%;
+                    }
+                }
+                &:last-child a {
+                    border-bottom:1px solid #ccc;
+                } 
+                &:nth-child(1) a {
+                    padding:0;border:0;margin:0 0 10px 0;
+                }   
+            }      
+       }
+    }
+}

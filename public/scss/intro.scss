@@ -1,0 +1,197 @@
+
+/* 메인컬러 rgb(95,0,128); */
+
+#wrap {width:100%;position: relative;}
+#wrap #main {width:100%;position: relative;z-index: 2;}
+#wrap #main #section1 {width:100%;padding:0 0 40px 0;}
+#wrap #main #section1 .slide-container {width:100%;position: relative;user-select: none; /* 터치할때 범위가 선택안함 */}
+#wrap #main #section1 .slide-container .slide-view {width:100%;overflow: hidden;position: relative;}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap {width: calc(100% * 16);display: flex;position: relative;margin-left:-100%;}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap .slide {width:100%;}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap .slide a {width:100%;display: block; /* 터치스와이프에서방해된다 */ pointer-events: none;}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap .slide a img {width:100%;}
+
+/* 다음 이전 슬라이드 화살버튼 */
+#wrap #main #section1 .slide-container .slide-next-btn {position: absolute;top:50%;right:16%;width:52px;height:52px;margin-top:-26px;}
+#wrap #main #section1 .slide-container .slide-next-btn img {width:100%;}
+
+/* 슬라이드 페이지 번호(인디게이터 번호) */
+#wrap #main #section1 .slide-container .page-count {position: absolute;bottom:20px;right:30%;width:65px;height:25px;display: flex;align-items: center;justify-content: space-around;background: rgba(0,0,0, 0.3);padding:0 10px;border-radius:12.5px;}
+#wrap #main #section1 .slide-container .page-count span {color:#fff;font-size: 14px;font-weight: 600;}
+
+
+
+#wrap #main #section1 .slide-container .slide-prev-btn {position: absolute;top:50%;left:16%;width:52px;height:52px;margin-top:-26px;transform: rotate(180deg);}
+#wrap #main #section1 .slide-container .slide-prev-btn img{width:100%;}
+
+
+
+/* 섹션2, 섹션7 공통스타일 */
+#wrap #main .section-public {width:100%;padding:40px 0 40px 0;}
+#wrap #main .section-public .container {width:100%;max-width:1068px;margin: 0 auto;}
+#wrap #main .section-public .container .title {padding:0 0 30px 0;}
+#wrap #main .section-public .container .title h2 {font-size: 28px;font-weight: 500;color:#333;text-align: center;}
+
+#wrap #main .section-public .container .slide-container {width:100%;position: relative;user-select: none; }
+#wrap #main .section-public .container .slide-container .slide-view {width:100%;position: relative;overflow: hidden;z-index: 1;}
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap {width:500%;position: relative;display: flex;pointer-events: none;}
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide {width:25%;} /* 20개 */
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap {margin:0 9px;cursor: pointer;}
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .img-box {width:100%;position: relative;}
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .img-box > img {width:100%;z-index: 1;position: relative;}
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .img-box > span {width:45px;height:45px;z-index: 2;position: absolute;bottom:15px;right:15px;}
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .img-box > span img {width:100%;}
+
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box {padding:20px 0 0 0;line-height:140%;}
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box h2 {font-size: 16px;}
+
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box h3 {font-size: 16px;padding:10px 0;font-weight:600;}
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box h3 strong {color:#fa622f;margin:0 10px 0 0;}
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box h3 em {color:#333;}
+
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box h4 {font-size: 14px;}
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box h4 s {color:#bbb;}
+
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box h5 {font-size: 12px;padding:10px 0;color:#bbb;}
+#wrap #main .section-public .container .slide-container .slide-view .slide-wrap .slide .slide-gap .txt-box h5 span {color:#bbb;}
+
+/* 슬라이드 좌우 화살 버튼  */
+#wrap #main .section-public .container .slide-container .next-btn {position: absolute;right:-21px;top:50%;width:60px;height:60px;margin:-90px 0 0 0;z-index:2;}
+#wrap #main .section-public .container .slide-container .next-btn img {width:100%;}
+
+#wrap #main .section-public .container .slide-container .prev-btn {position: absolute;left:-21px;top:50%;width:60px;height:60px;margin:-90px 0 0 0;z-index:2;transform: rotate(180deg);}
+#wrap #main .section-public .container .slide-container .prev-btn img {width:100%;}
+
+
+
+
+/* 섹션8 슬라이드 슬라이드 2화면 */
+#wrap #main #section8 .container .slide-container .slide-view .slide-wrap {width:200%;}
+
+
+
+
+
+#wrap #main #section3 {width:100%;padding:40px 0;}
+#wrap #main #section3 .container {width:100%;max-width: 1068px;padding:0 9px;margin:0 auto;}
+#wrap #main #section3 .container .title {display: none;}
+#wrap #main #section3 .container .title h2 {font-size: 20px;}
+
+#wrap #main #section3 .container .content {width:100%;}
+#wrap #main #section3 .container .content a {width:100%;display: block;}
+#wrap #main #section3 .container .content a img {width:100%;}
+
+
+
+
+
+
+/* 섹션4 */
+#wrap #main #section4 {width:100%;padding:40px 0;}
+#wrap #main #section4 .container {width:100%;max-width:1068px;margin:0 auto;}
+#wrap #main #section4 .container .content {width:100%;}
+#wrap #main #section4 .container .content ul {width:100%;display: flex;}
+#wrap #main #section4 .container .content ul li {width:33.333%;}
+#wrap #main #section4 .container .content ul li .gap {margin: 0 9px;}
+
+/* 1칸 : 선물세트 특가 24시간 선물세트 한정특가 카운트 타이머 */
+#wrap #main #section4 .container .content ul li:nth-child(1) .gap h2 {font-size:28px;color:#333;font-weight: 500;}
+#wrap #main #section4 .container .content ul li:nth-child(1) .gap h3 {font-size:15px;color:#666;font-weight: 400;padding:15px 0 30px 0;}
+#wrap #main #section4 .container .content ul li:nth-child(1) .gap .timer-box {font-size:32px;color: #333;font-weight: 600;user-select: none;}
+#wrap #main #section4 .container .content ul li:nth-child(1) .gap .timer-box span  {margin:0 3px;display:inline-block;width:36px;}
+#wrap #main #section4 .container .content ul li:nth-child(1) .gap .timer-box span svg {width:36px;}
+
+/* 2,3칸  선물특가 상품 */
+#wrap #main #section4 .container .content ul li .gap .img-box {width:100%;position: relative;overflow: hidden;}
+#wrap #main #section4 .container .content ul li .gap .img-box > img {width:100%;z-index: 1;position: relative;transition: all .6s;}
+#wrap #main #section4 .container .content ul li .gap:hover .img-box > img {transform: scale(1.05);}
+
+#wrap #main #section4 .container .content ul li .gap .img-box strong {z-index: 2;position: absolute;top:0;left:0;font-size:14px;font-weight: 700;background:#bd76ff;color:#fff;padding:8px 10px;font-family: '';}
+#wrap #main #section4 .container .content ul li .gap .img-box span {width:45px;height:45px;z-index: 2;position: absolute;bottom:15px;right:15px;}
+#wrap #main #section4 .container .content ul li .gap .img-box span img {width:100%;}
+
+#wrap #main #section4 .container .content ul li .gap .txt-box {padding:20px 0 0 0;line-height:140%;}
+#wrap #main #section4 .container .content ul li .gap .txt-box h2 {font-size: 16px;}
+#wrap #main #section4 .container .content ul li .gap .txt-box h3 {font-size: 16px;padding:10px 0;font-weight:600;}
+#wrap #main #section4 .container .content ul li .gap .txt-box h3 strong {color:#fa622f;margin:0 10px 0 0;}
+#wrap #main #section4 .container .content ul li .gap .txt-box h3 em {color:#333;}
+#wrap #main #section4 .container .content ul li .gap .txt-box h4 {font-size: 14px;}
+#wrap #main #section4 .container .content ul li .gap .txt-box h4 s {color:#bbb;}
+#wrap #main #section4 .container .content ul li .gap .txt-box h5 {font-size: 12px;padding:10px 0;color:#bbb;}
+#wrap #main #section4 .container .content ul li .gap .txt-box h5 span {color:#bbb;}
+
+
+
+
+/* 섹션5 */
+#wrap #main #section5 {width:100%;padding:40px 0;}
+#wrap #main #section5 .container {width:100%;max-width:1068px;margin:0 auto;}
+#wrap #main #section5 .container .content {width:100%;}
+#wrap #main #section5 .container .content ul {width:100%;display: flex;}
+#wrap #main #section5 .container .content ul li:nth-child(1) {width:33.333%;}
+#wrap #main #section5 .container .content ul li:nth-child(2) {width:66.666%;}
+#wrap #main #section5 .container .content ul li .gap {margin: 0 9px;}
+
+/* 1칸 : 선물세트 특가 24시간 선물세트 한정특가 카운트 타이머 */
+#wrap #main #section5 .container .content ul li:nth-child(1) .gap h2 {font-size:28px;color:#333;font-weight: 500;}
+#wrap #main #section5 .container .content ul li:nth-child(1) .gap h3 {font-size:15px;color:#666;font-weight: 400;padding:15px 0 30px 0;}
+#wrap #main #section5 .container .content ul li:nth-child(1) .gap .timer-box {font-size:32px;color: #333;font-weight: 600;}
+#wrap #main #section5 .container .content ul li:nth-child(1) .gap .timer-box span  {margin:0 3px;display:inline-block;width:36px;}
+#wrap #main #section5 .container .content ul li:nth-child(1) .gap .timer-box span svg {width:36px;}
+
+/* 2,3칸  선물특가 상품 */
+#wrap #main #section5 .container .content ul li .gap .img-box {width:100%;position: relative;overflow: hidden;}
+#wrap #main #section5 .container .content ul li .gap .img-box > img {width:100%;z-index: 1;position: relative;transition: all .6s;}
+#wrap #main #section5 .container .content ul li .gap:hover .img-box > img {transform: scale(1.05);}
+#wrap #main #section5 .container .content ul li .gap .img-box strong {z-index: 2;position: absolute;top:0;left:0;font-size:14px;font-weight: 700;background:#bd76ff;color:#fff;padding:8px 10px;font-family: '';}
+#wrap #main #section5 .container .content ul li .gap .img-box span {width:45px;height:45px;z-index: 2;position: absolute;bottom:15px;right:15px;}
+#wrap #main #section5 .container .content ul li .gap .img-box span img {width:100%;}
+#wrap #main #section5 .container .content ul li .gap .txt-box {padding:20px 0 0 0;line-height:140%;}
+#wrap #main #section5 .container .content ul li .gap .txt-box h2 {font-size: 16px;}
+#wrap #main #section5 .container .content ul li .gap .txt-box h3 {font-size: 16px;padding:10px 0;font-weight:600;}
+#wrap #main #section5 .container .content ul li .gap .txt-box h3 strong {color:#fa622f;margin:0 10px 0 0;}
+#wrap #main #section5 .container .content ul li .gap .txt-box h3 em {color:#333;}
+#wrap #main #section5 .container .content ul li .gap .txt-box h4 {font-size: 14px;}
+#wrap #main #section5 .container .content ul li .gap .txt-box h4 s {color:#bbb;}
+#wrap #main #section5 .container .content ul li .gap .txt-box h5 {font-size: 12px;padding:10px 0;color:#bbb;}
+#wrap #main #section5 .container .content ul li .gap .txt-box h5 span {color:#bbb;}
+
+
+
+
+/* 섹션6 */
+#wrap #main #section6 {width:100%;padding:40px 0;}
+#wrap #main #section6 .container {width:100%;max-width:1068px;margin:0 auto;}
+#wrap #main #section6 .container .content {width:100%;}
+#wrap #main #section6 .container .content ul {width:100%;display: flex;}
+#wrap #main #section6 .container .content ul li:nth-child(1) {width:33.333%;}
+#wrap #main #section6 .container .content ul li:nth-child(2) {width:66.666%;}
+#wrap #main #section6 .container .content ul li .gap {margin: 0 9px;}
+
+/* 1칸 : 선물세트 특가 24시간 선물세트 한정특가 카운트 타이머 */
+#wrap #main #section6 .container .content ul li:nth-child(1) .gap h2 {font-size:28px;color:#333;font-weight: 500;}
+#wrap #main #section6 .container .content ul li:nth-child(1) .gap h3 {font-size:15px;color:#666;font-weight: 400;padding:15px 0 30px 0;}
+#wrap #main #section6 .container .content ul li:nth-child(1) .gap .timer-box {font-size:32px;color: #333;font-weight: 600;}
+#wrap #main #section6 .container .content ul li:nth-child(1) .gap .timer-box span  {margin:0 3px;display:inline-block;width:36px;}
+#wrap #main #section6 .container .content ul li:nth-child(1) .gap .timer-box span svg {width:36px;}
+
+/* 2,3칸  선물특가 상품 */
+#wrap #main #section6 .container .content ul li .gap .img-box {width:100%;position: relative;overflow: hidden;}
+#wrap #main #section6 .container .content ul li .gap .img-box > img {width:100%;z-index: 1;position: relative;transition: all .6s;}
+#wrap #main #section6 .container .content ul li .gap:hover .img-box > img {transform: scale(1.05);}
+#wrap #main #section6 .container .content ul li .gap .img-box strong {z-index: 2;position: absolute;top:0;left:0;font-size:14px;font-weight: 700;background:#bd76ff;color:#fff;padding:8px 10px;font-family: '';}
+#wrap #main #section6 .container .content ul li .gap .img-box span {width:45px;height:45px;z-index: 2;position: absolute;bottom:15px;right:15px;}
+#wrap #main #section6 .container .content ul li .gap .img-box span img {width:100%;}
+#wrap #main #section6 .container .content ul li .gap .txt-box {padding:20px 0 0 0;line-height:140%;}
+#wrap #main #section6 .container .content ul li .gap .txt-box h2 {font-size: 16px;}
+#wrap #main #section6 .container .content ul li .gap .txt-box h3 {font-size: 16px;padding:10px 0;font-weight:600;}
+#wrap #main #section6 .container .content ul li .gap .txt-box h3 strong {color:#fa622f;margin:0 10px 0 0;}
+#wrap #main #section6 .container .content ul li .gap .txt-box h3 em {color:#333;}
+#wrap #main #section6 .container .content ul li .gap .txt-box h4 {font-size: 14px;}
+#wrap #main #section6 .container .content ul li .gap .txt-box h4 s {color:#bbb;}
+#wrap #main #section6 .container .content ul li .gap .txt-box h5 {font-size: 12px;padding:10px 0;color:#bbb;}
+#wrap #main #section6 .container .content ul li .gap .txt-box h5 span {color:#bbb;}
+
+
+
+
